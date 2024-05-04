@@ -1,0 +1,64 @@
+.navbar {
+    background: linear-gradient(to right, rgb(77, 145, 255), rgb(197, 205, 255), rgb(0, 47, 255));
+}
+
+img {
+    width: 100%;
+}
+
+.in {
+    width: 80%;
+}
+
+.fon-1 {
+    background: linear-gradient(to bottom, rgb(77, 145, 255), rgb(197, 205, 255), rgb(0, 47, 255));
+    padding-top: 80px;
+    padding-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.my-card-1 img {
+    width: 30%;
+}
+
+.my-card-2 img {
+    width: 40%;
+}
+
+.my-card-2 {
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #867fd3;
+}
+
+.list {
+    width: 10%;
+}
+
+.fon-2 {
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(to right bottom, rgb(77, 145, 255), rgb(197, 205, 255), rgb(0, 47, 255));
+}
+
+.list {
+    list-style-image: url(list-img.png);
+}
+
+.fon-3 {
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background: linear-gradient(to right, rgb(77, 145, 255), rgb(197, 205, 255), rgb(0, 47, 255));
+}
+
+.footer {
+    background: linear-gradient(to right, rgb(77, 145, 255), rgb(197, 205, 255), rgb(0, 47, 255));
+}
