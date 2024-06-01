@@ -1,0 +1,271 @@
+img {
+    width: 100%;
+}
+
+.r {
+    color: white;
+}
+
+.tm {
+    width: 100px;
+}
+
+.navbar {
+    background-color: #716f6f;
+}
+
+.m {
+    background-image: url(bg-1.png);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: 50% 50%;
+}
+
+
+
+.btn-tatu {
+    background-color: #09090987;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    box-shadow: 0px 0px 12px black, -1px -1px 12px rgb(128, 128, 128), 2px 2px 10px rgb(49, 49, 49);
+    border-radius: 5px;
+}
+
+.menu-item {
+    background-color: rgba(37, 37, 37, 0.797);
+    margin: 15px;
+    padding: 10px;
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.menu-item:hover {
+    box-shadow: 0px 0px 1px black, -1px -1px 2px rgb(128, 128, 128), 2px 2px 5px rgb(49, 49, 49);
+
+}
+
+.menu-item:active {
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line img {
+    height: 3px;
+    width: 100%;
+    padding-left: 15px;
+
+}
+
+.text-line {
+    color: white;
+    white-space: nowrap;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Goblin One", serif;
+    color: white;
+    font-size: 4em;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
+
+.m1 {
+    background-image: url(Detailed\ Info2.png);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: 50% 50%;
+    padding-top: 25px;
+    position: relative;
+}
+
+/* фотка хлопця причеплена до нижнього правого краю блока */
+
+.foto-boy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+}
+
+p {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.ib {
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+}
+
+.card-header {
+    background-color: #5a5a5a;
+    color: black;
+}
+
+.card {
+    background-color: #525252;
+    color: white;
+    height: 100%;
+}
+
+.o {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #3d3d3d;
+}
+
+.rt {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fon-div-shadow {
+
+    box-shadow: 0px 0px 2px black, -1px -1px 2px rgb(128, 128, 128), 2px 2px 5px rgb(49, 49, 49);
+    padding: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    background-color: #21212197;
+}
+
+.fon-first-div {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black, -1px -1px 2px rgb(128, 128, 128), 2px 2px 5px rgb(49, 49, 49);
+}
+
+.shadow-quotes-manjiro {
+    box-shadow: 0px 0px 2px black, -1px -1px 2px rgb(128, 128, 128), 2px 2px 5px rgb(49, 49, 49);
+    background-color: #21212197;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.olp {
+    background: url(detal-boy.png) no-repeat, linear-gradient(to right, rgb(28, 28, 28), rgb(67, 66, 66));
+    background-size: auto 80%;
+    background-position: 0% 100%;
+    /* background-repeat: ; */
+    padding-top: 20px;
+}
+
+.shadow {
+    box-shadow: 0px 0px 2px black, -1px -1px 2px rgb(128, 128, 128), 2px 2px 5px rgb(49, 49, 49);
+    padding: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    background-color: #21212197;
+}
+
+.fol {
+    margin-right: auto;
+}
+.fol-without-img{
+    margin-right: auto;
+}
+
+h4 {
+    font-family: "Goblin One", serif;
+    color: white;
+    font-size: 1.5em;
+}
+
+.d {
+    background-image: url(Main.png);
+}
+
+.dra {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 32%;
+}
+
+.m2 {
+    background-image: url(Main.png);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: 50% 50%;
+    padding-top: 25px;
+    position: relative;
+}
+
+.m3 {
+    background-image: url(Detailed\ Info.png);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: 50% 50%;
+    padding-top: 25px;
+    position: relative;
+}
+
+.facebook:hover {
+    color: blue;
+}
+
+.instagram:hover {
+    color: orange;
+}
+
+.twitter:hover {
+    color: aqua;
+}
+
+.youtube:hover {
+    color: brown;
+}
+
+.socio {
+    font-size: 2rem;
+    color: white;
+    margin: 0 7px;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #7b7b7b;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.socio {
+    font-size: 2rem;
+    color: white;
+    margin: 0 7px;
+    text-decoration: none;
+}
+
+button{
+        background-color: #5b5b5b;
+        font-weight: 900;
+        border-radius: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        border: 0;
+        color: white;
+}
