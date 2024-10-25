@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Такуми пау пау</title>
+    <style>
+        .game {
+            background-image: url(cloud.gif);
+            width: 70%;
+            height: 60vh;
+            margin: 30px auto;
+            background-size: cover;
+            position: relative;
+        }
+
+        .bird {
+            width: 90px;
+            height: 90px;
+            position: absolute;
+            user-select: none;
+            left: 50px;
+        }
+
+        .bird:hover {
+            cursor: url(cursor.png), crosshair;
+        }
+
+        .bird img {
+            width: 100%;
+        }
+
+        .rez-img img {
+            width: 70px;
+        }
+
+        .rez-img {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+
+        .resilt-div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="game">
+        <div class="bird"><img src="FV4gjB6WQAEjBAS.jpg" alt=""></div>
+    </div>
+    <div class="resilt-div">
+        <div class="rez-img">Вбито <img src="FV4gjB6WQAEjBAS.jpg" alt="">:</div>
+        <div class="div-count">0</div>
+    </div>
+
+
+
+    <script>
+        let bird, pole, maxLeft, maxTop, rezLeft, rezTop;
+        pole = document.querySelector('.game');
+        bird = document.querySelector('.bird');
+
+        function changePosition() {
+            maxLeft = pole.clientWidth - bird.offsetWidth;
+            maxTop = pole.clientHeight - bird.offsetHeight;
+
+            rezLeft = maxLeft * Math.random() + 'px';
+            rezTop = maxTop * Math.random() + 'px';
+
+            bird.style.left = rezLeft;
+            bird.style.top = rezTop;
+        }
+
+        let timer = setInterval(() => {
+            changePosition();
+            console.log('aaaa');
+
+        }, 1000)
+
+let divCount = document.querySelector('.div-count')
+let point = 0;
+
+bird.onclick = function (){
+    point++;
+    divCount.innerHTML = point;
+}
+
+
+
+    </script>
+</body>
+
+</html>
